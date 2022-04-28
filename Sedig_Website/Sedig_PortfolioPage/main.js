@@ -154,7 +154,7 @@ function LoadObjectives()
 }
 function LoadFlightSim()
 {
-    window.location.href = "https://rakno7.github.io/Sedig_Website/FlightSim/";
+   window.location.href = "http//rakno7.github.io/Sedig_flightSimBuild2/";
 }
 
 function displayDigital()
