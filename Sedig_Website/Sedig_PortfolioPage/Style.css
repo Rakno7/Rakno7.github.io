@@ -1,0 +1,157 @@
+body 
+{
+   
+   background-image: linear-gradient(rgb(0, 0, 0), rgb(49, 49, 49));
+   margin: 0;
+   
+   
+}
+h1
+{
+   color: #cecece;
+}
+
+table
+{
+   
+   border:1px solid rgb(0, 0, 0);
+}
+th
+{
+   border:1px solid rgb(116, 116, 116);
+   width:655px
+}
+table, th, td 
+{
+   
+  border:1px solid rgb(116, 116, 116);
+  width:655px
+}
+th:hover, td:hover
+{
+  border:1px solid rgb(0, 0, 0);
+  width:655px
+}
+
+
+
+.Column 
+{
+   display: flex;
+   flex-wrap: wrap;
+   /* background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(36, 36, 36, 0)); */
+   width: 100%;
+ }
+ 
+ .Row 
+ {
+   padding: 5px;
+   flex: 25%;
+   height:600px;
+   width:20%;
+   border: 2px solid rgba(255, 255, 255, 0);
+   overflow:auto; 
+   transition-duration: 100ms;
+ }
+ 
+ 
+ .Row img 
+ {
+   vertical-align: middle;
+   width: 90%; height: auto; 
+   filter: drop-shadow(10px 16px 10px rgb(12, 12, 12));
+    
+   border: 1px solid rgba(31, 31, 31, 0.473);
+   border-radius: 4px;
+   padding: 3px;
+   transition-duration: 700ms;
+   
+   
+ }
+
+ .Row img:hover 
+ {
+   box-shadow: 0 0 2px 1px rgba(23, 31, 34, 0.5);
+   filter: drop-shadow(10px 16px 20px rgb(0, 0, 0));
+   width: 90.5%; height: auto; 
+   padding: 0px;
+   transition-duration: 700ms;
+ }
+
+button
+{
+    
+    position: relative;
+    top: 0px;
+    left: 0px;
+    align-items: center;
+    background-origin: padding-box;
+    background-color: rgb(167, 82, 82);
+    width: 30px;
+    height: 10px;
+    border-radius: 10px;
+    border-color: black;
+    transition-duration: 500ms;
+    color: #ffffff17;
+
+}
+button:hover 
+{
+   
+   background-color: #7c6c6c;
+   color: rgb(190, 171, 176);
+   border-radius: 1px;
+   transition-duration: 100ms;
+}
+.button2
+{
+  width: 25%; 
+  height: 50px;
+  position: fixed;
+  font-family: sans-serif;
+  font-weight: bold;
+  
+  border: 0px ridge rgba(173, 173, 173, 0.6);
+    background-color: rgba(119, 114, 114, 0.322);
+    height: 10px;
+    border-radius: 1px;
+    transition-duration: 500ms;
+    color: #b6b6b6;
+
+}
+.button2:hover 
+{
+  height: 30px;
+  border: 1px ridge rgba(173, 173, 173, 0.6);
+   background-color: #5e5e5e;
+   color: rgb(165, 165, 165);
+   border-radius: 5px;
+   transition-duration: 100ms;
+}
+/* width */
+::-webkit-scrollbar 
+{
+   width: 50px;
+ }
+ 
+ /* Track */
+ ::-webkit-scrollbar-track 
+ {
+   background: #2e2d2d;
+   border-radius: 30px;
+ }
+ 
+ /* Handle */
+ ::-webkit-scrollbar-thumb 
+ {
+   border-radius: 30px;
+   background: rgb(88, 88, 88);
+ }
+ 
+ /* Handle on hover */
+ ::-webkit-scrollbar-thumb:hover 
+ {
+  border-radius: 35px;
+   background: rgb(66, 66, 66);
+   transition-duration: 100ms;
+ }
