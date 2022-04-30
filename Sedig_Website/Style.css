@@ -78,7 +78,7 @@ th:hover, td:hover
  {
    box-shadow: 0 0 2px 1px rgba(23, 31, 34, 0.5);
    filter: drop-shadow(10px 16px 50px rgb(0, 0, 0));
-   width: 91%; height: auto; 
+   
    
  }
 
