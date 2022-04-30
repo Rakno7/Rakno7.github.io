@@ -75,7 +75,7 @@ function LoadObjectives()
 }
 function LoadFlightSim()
 {
-    window.open("https://rakno7.github.io/Sedig_Website/Sedig_FlightSim/");
+    window.open("https://rakno7.github.io/Sedig_Website/Sedig_flightSim/");
     //window.location.href = "https://rakno7.github.io/Sedig_Website/FlightSim/";
 }
 //set CheckInput fuction be called on an interval
